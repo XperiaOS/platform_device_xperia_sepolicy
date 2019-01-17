@@ -1,13 +1,13 @@
 #
 # This policy configuration will be used by all products that
-# inherit from fiOS
+# inherit from XperiaOS
 #
 
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    device/fi/sepolicy/common/public
+    device/xperia/sepolicy/common/public
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/fi/sepolicy/common/private
+    device/xperia/sepolicy/common/private
 
 BOARD_SEPOLICY_DIRS += \
-    device/fi/sepolicy/common/vendor
+    device/xperia/sepolicy/common/vendor
